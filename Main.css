@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+body {
+  background-image: url(./img/body2.jpg);
+  background-repeat: no-repeat;
+  background-size: 1700px;
+}
+.container1 {
+  width: 500px;
+  height: 650px;
+  background-color: #00ffffe6;
+  border-radius: 50px;
+  margin-top:5%;
+  margin-left: 34%;
+}
+.box {
+  width: 400px;
+  height: 80px;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.box2 {
+  margin-top: -20px;
+}
+h1 {
+  text-align: center;
+  color: #51f92b;
+  font-family: "Viaoda Libre", cursive;
+}
+h3 {
+  color: rgb(19, 28, 173);
+  text-align: center;
+  font-family: "Viaoda Libre", cursive;
+}
+b {
+  color: #502aa5;
+  margin-left: 118px;
+  font-family: "Viaoda Libre", cursive;
+}
+.box1 {
+  width: 400px;
+  height: 80px;
+  margin-left: 55px;
+  margin-top: -10px;
+}
+label {
+  font-size: 15px;
+  font-family: "Viaoda Libre", cursive;
+  color: rgb(77, 155, 53);
+}
+.btn:hover {
+  background-color: rgb(190, 33, 33);
+}
+a {
+  cursor: pointer;
+  font-family: "Viaoda Libre", cursive;
+}
+.btn {
+  cursor: pointer;
+}
+.input-group {
+  cursor: text;
+  height: 2.6rem;
+}
+.check {
+  cursor: pointer;
+}
+.fa-eye {
+  cursor: pointer;
+}
+.fa-eye:hover {
+  border-radius: 20%;
+  background-color: rgb(190, 183, 183);
+}
+.content {
+  margin-left: 45px;
+  line-height: 30px;
+  font-family: "Dancing Script", cursive;
+}
+.invalid{
+  color:red;
+  border-color: green;
+}
+
+a:hover{
+  color: rgb(187, 255, 0);
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Main.css">
+    <title>📑Đăng ký tài khoản</title>
+</head>
+<body>
+        <!-- <h1>Bài Tập Cuối Kỳ - Font Đăng Ký</h1> -->
+    <div class="container container1">
+        <h3>Tạo tài khoản</h3>
+        <b>Vui lòng điền thông thông tin để đăng ký</b>
+        <hr>
+        <div class="row">
+            <div class="col-xl-12 box">
+               <div class="input-group flex-nowrap user">
+                   <span class="input-group-text" id="addon-wrapping" id="user" ><i class="fa fa-user-secret" style="font-size:24px"></i></span>
+                   <input type="text" id="username" class="form-control" onblur="checkUsername()" placeholder="User (VD: J97)" aria-label="Username" aria-describedby="addon-wrapping">
+
+                 </div>
+                 <span class="content" id="hienUser"></span>
+            </div>
+            <div class="col-xl-12 box">
+               <div class="input-group flex-nowrap user">
+                   <span class="input-group-text" id="addon-wrapping"><i class="fa fa-phone-square" style="font-size:24px"></i></span>
+                   <input type="text" id="Phone" class="form-control" onblur="CheckPhone()" placeholder="Số điện thoại (VD: 0375521***)" aria-label="Phone" aria-describedby="addon-wrapping">
+                 </div>
+                 <span class="content" id="hienPhone"></span>
+            </div>
+            <div class="col-xl-12 box">
+               <div class="input-group flex-nowrap user">
+                   <span class="input-group-text" id="addon-wrapping"><i class="fa fa-envelope" style="font-size:18px"></i></span>
+                   <input type="text" id="Email" class="form-control" oninput="checkEmail()"  placeholder="Emai (VD: J97@gmail.com)" aria-label="Email" aria-describedby="addon-wrapping">
+                 </div>
+                 <span class="content" id="hienEmail"></span>
+            </div>
+            <div class="col-xl-12 box">
+               <div class="input-group flex-nowrap user">
+                   <span class="input-group-text" id="addon-wrapping"><i class="fa fa-lock" style="font-size:24px"></i></span>
+                   <input type="password" id="passWord" class="form-control" onblur="password()" placeholder="Mật khẩu (VD: Vanson181020)" aria-label="Password" minlength="8" aria-describedby="addon-wrapping" >
+                   <span class="input-group-text"><i class="fa fa-eye" style="font-size:24px" onclick="bam()"></i></span>
+                 </div>
+                 <span class="content" id="hienPass1"></span>
+            </div>
+            <div class="col-xl-12 box">
+               <div class="input-group flex-nowrap user">
+                   <span class="input-group-text" id="addon-wrapping"><i class="fa fa-lock" style="font-size:24px"></i></span>
+                   <input type="password" id="passWordR" class="form-control" oninput="checkPassword()" placeholder="Nhập lại mật khẩu" aria-label="Password" aria-describedby="addon-wrapping">
+                   <span class="input-group-text"><i class="fa fa-eye" style="font-size:24px" onclick="bam1()"></i></span>
+                  </div>
+                 <span class="content" id="hienPass2"></span>
+            </div>
+           <div class="col-xl-12 box1">
+            <div class="form-check">
+                <input class="form-check-input check" type="checkbox" checked value="" name="checkbox" id="action" onclick="checkCheckbox()">
+                <label class="form-check-label" for="flexCheckDefault">
+                  BẠN CÓ ĐỒNG Ý VỚI <a href="#">ĐIỀU KHOẢN</a> CỦA CHÚNG TÔI
+                </label>
+              </div>
+              <span class="content" id="hienCheckbox"></span>
+           </div>
+            <div class="col-xl-12 ">
+               <div class="d-grid gap-2 col-6 mx-auto box2">
+                   <button class="btn btn-primary " type="button" onclick="submit()">Đăng Ký</button>
+                 </div>
+            </div>
+        </div>
+    </div> 
+    <script src="Main.js"></script>
+</body>
+</html>
