@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+body {
+  background-image: url(./img/anh2.svg);
+  background-repeat: no-repeat;
+  background-size: 1110px 700px;
+}
+.container1 {
+  width: 490px;
+  height: 700px;
+  background-color: #00ffff4d;
+  border-radius: 60px;
+  margin-top: 1%;
+  border: 1px solid #1000ff91;
+}
+
+.box {
+  width: 400px;
+  height: 80px;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.box2 {
+  margin-top: -20px;
+}
+h1 {
+  text-align: center;
+  color: #51f92b;
+  font-family: "Viaoda Libre", cursive;
+}
+h3 {
+  color: #502aa5;
+  text-align: center;
+  font-family: "Viaoda Libre", cursive;
+}
+b {
+  color: #502aa5;
+  margin-left: 118px;
+  font-family: "Viaoda Libre", cursive;
+}
+.box1 {
+  width: 400px;
+  height: 80px;
+  margin-left: 55px;
+  margin-top: -10px;
+}
+label {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  color: #ff0000;
+  margin-top: 15px;
+}
+.btn:hover {
+  border: 2px solid #fff;
+}
+a {
+  cursor: pointer;
+  font-family: "Viaoda Libre", cursive;
+}
+.btn {
+  cursor: pointer;
+  margin: 0;
+  background: #6C63FF;
+  border: 2px solid #fff;
+  width: 244px;
+  height: 41px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  margin-left: -10px;
+  margin-top: -10px;
+}
+.input-group {
+  cursor: text;
+  height: 2.6rem;
+  font-family: "Poppins", sans-serif;
+}
+.check {
+  cursor: pointer;
+  margin-top: 17px;
+}
+.fa-eye {
+  cursor: pointer;
+}
+.fa-eye:hover {
+  border-radius: 20%;
+  background-color: #6C63FF;
+}
+.content {
+  margin-left: 45px;
+  line-height: 30px;
+  font-family: "Dancing Script", cursive;
+}
+.invalid{
+  color:red;
+  border-color: green;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: rgb(255, 11, 11);
+  position: relative;
+}
+
+.social-text {
+ text-align: center;
+  font-size: 1rem;
+}
